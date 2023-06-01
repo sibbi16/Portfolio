@@ -2,12 +2,14 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
+import disc from "../../Assets/Projects/discplus-dashboard.jpg";
+import gigabite from "../../Assets/Projects/gigabite.jpg";
 import fyp from "../../Assets/Projects/fyp.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import vpc from "../../Assets/Projects/vbc.jpg";
+import commvault from "../../Assets/Projects/commvault.png";
 import jarvis from "../../Assets/Projects/voiceAssistant.jpg";
+import antiaging from "../../Assets/Projects/antiaging.jpg";
+import luna from "../../Assets/Projects/lunawellbeing.jpg";
 
 function Projects() {
   return (
@@ -33,11 +35,11 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={commvault}
               isBlog={false}
-              title="Webmin"
+              title="Commvault"
               description="Developed a system to assist engineers in managing hosting servers using commvault. Implemented a system enabling engineer to analyze and monitor servers and customer data through commvault."
-              demoLink="https://drive.google.com/drive/folders/1Efbegwd_PtNBqlS2z2Re50bcFh0ISdP4?usp=share_link"
+              demoLink="#"
             />
           </Col>
 
@@ -54,35 +56,51 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={disc}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/sibbi16/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Disc Plus"
+              description="Disc Plus is a custom-built CRM platform developed using Laravel, designed to assess and analyze individual personalities. Through a series of multiple-choice questions, customers can participate in a comprehensive personality test. Upon completion, the platform generates a personalized record that provides insights into their personality traits."
+              demoLink="https://discplus.health/login"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={vpc}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/sibbi16/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="VBC digital"
+              description="VBC is a robust platform built on Laravel that efficiently handles team management, meeting scheduling, document management, and information sharing for staff members. It serves as a centralized hub where teams can collaborate effectively, ensuring seamless communication and streamlined workflows."
+              demoLink="https://dashboard.vbcdigital.com/login"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={gigabite}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/sibbi16/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Giga Bite"
+              description="Giga Bite is a cutting-edge CRM system developed using Laravel, specifically tailored for call center operations. This comprehensive platform encompasses advanced calling and lead management functionalities. With Giga Bite, call center agents can efficiently handle incoming and outgoing calls while managing leads."
+              demoLink="https://dashboard.gigabitesoft.com/login"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={luna}
+              isBlog={false}
+              title="Luna Wellbeing"
+              description="Luna Wellbeing is a captivating e-commerce website built on the Laravel framework, offering a diverse range of exquisite CBD products that are carefully grown and crafted in Italy. With its seamless payment feature, customers can easily purchase these beautiful CBD products while enjoying a secure and hassle-free shopping experience."
+              demoLink="https://lunawellbeing.co.uk/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={antiaging}
+              isBlog={false}
+              title="Anti-aging"
+              description="Anti-Aging is a WordPress-based e-commerce store that specializes in selling supplements for anti-aging purposes. The website is built using WordPress, providing a user-friendly interface for customers to browse and purchase a wide range of anti-aging products."
+              demoLink="https://anti-agingworldwide.com/"
             />
           </Col>
         </Row>
