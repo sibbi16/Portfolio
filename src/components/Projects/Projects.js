@@ -9,7 +9,11 @@ import vpc from "../../Assets/Projects/vbc.jpg";
 import commvault from "../../Assets/Projects/commvault.png";
 import jarvis from "../../Assets/Projects/voiceAssistant.jpg";
 import antiaging from "../../Assets/Projects/antiaging.jpg";
+import weenie from "../../Assets/Projects/weene.jpg";
 import luna from "../../Assets/Projects/lunawellbeing.jpg";
+import meConsulting from "../../Assets/Projects/meconsulting.jpg";
+import chrystalExecutive from "../../Assets/Projects/chrystalexecutivetravel.jpg";
+import scitechInternational from "../../Assets/Projects/scitechinternational.jpg";
 
 function Projects() {
   return (
@@ -38,7 +42,7 @@ function Projects() {
               imgPath={commvault}
               isBlog={false}
               title="Commvault"
-              description="Developed a system to assist engineers in managing hosting servers using commvault. Implemented a system enabling engineer to analyze and monitor servers and customer data through commvault."
+              description="Commvault is an enterprise level project build with Vue.js, Tailwind, Laravel with Unit and Integration Testing. It was to assist engineers in managing hosting servers using commvault. Implemented a system enabling engineer to analyze and monitor servers and customer data through commvault."
               demoLink="#"
             />
           </Col>
@@ -68,7 +72,7 @@ function Projects() {
             <ProjectCard
               imgPath={vpc}
               isBlog={false}
-              title="VBC digital"
+              title="VBC Digital"
               description="VBC is a robust platform built on Laravel that efficiently handles team management, meeting scheduling, document management, and information sharing for staff members. It serves as a centralized hub where teams can collaborate effectively, ensuring seamless communication and streamlined workflows."
               demoLink="https://dashboard.vbcdigital.com/login"
             />
@@ -101,6 +105,46 @@ function Projects() {
               title="Anti-aging"
               description="Anti-Aging is a WordPress-based e-commerce store that specializes in selling supplements for anti-aging purposes. The website is built using WordPress, providing a user-friendly interface for customers to browse and purchase a wide range of anti-aging products."
               demoLink="https://anti-agingworldwide.com/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={weenie}
+              isBlog={false}
+              title="Weenie Fiat"
+              description="Weenie Fiats Ltd understands the unique charm and appeal of the Fiat 500, and their expertise allows them to cater to the specific needs of Fiat 500 owners. Whether it's routine maintenance, complex repairs, or sourcing authentic parts, they provide top-notch service and exceptional attention to detai"
+              demoLink="https://weeniefiats.co.uk/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={meConsulting}
+              isBlog={false}
+              title="M.E Consulting"
+              description="M.E Consulting website catering to tax, company registration, and compliance services. Additionally, the platform offers construction services for large-scale projects and sustainable solar solutions. With a focus on personalized support and expert guidance"
+              demoLink="https://meconsulting.com.pk/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chrystalExecutive}
+              isBlog={false}
+              title="Chrystal Executive Travel"
+              description="Chrystal Executive Travel is a specialized car transportation service catering to events such as parties, graduations, and funerals. The platform offers seamless logistics solutions, ensuring punctual and reliable transportation. With a user-friendly booking system, clients can easily schedule and manage their transportation needs"
+              demoLink="https://meconsulting.com.pk/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={scitechInternational}
+              isBlog={false}
+              title="Scitech International"
+              description="Scitech International stands as a top-tier importer and distributor in Pakistan, specializing in high-quality laboratory, scientific, medical, and technical research equipment. We cater to diverse sectors such as universities, pharmaceuticals, medical, hospitals, laboratories, environmental organizations, and R&D institutes."
+              demoLink="https://meconsulting.com.pk/"
             />
           </Col>
         </Row>
