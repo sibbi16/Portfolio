@@ -134,7 +134,7 @@ function Projects() {
               isBlog={false}
               title="Chrystal Executive Travel"
               description="Chrystal Executive Travel is a specialized car transportation service catering to events such as parties, graduations, and funerals. The platform offers seamless logistics solutions, ensuring punctual and reliable transportation. With a user-friendly booking system, clients can easily schedule and manage their transportation needs"
-              demoLink="https://meconsulting.com.pk/"
+              demoLink="https://chrystalexecutivetravel.co.uk/"
             />
           </Col>
 
@@ -144,7 +144,7 @@ function Projects() {
               isBlog={false}
               title="Scitech International"
               description="Scitech International stands as a top-tier importer and distributor in Pakistan, specializing in high-quality laboratory, scientific, medical, and technical research equipment. We cater to diverse sectors such as universities, pharmaceuticals, medical, hospitals, laboratories, environmental organizations, and R&D institutes."
-              demoLink="https://meconsulting.com.pk/"
+              demoLink="https://scitechinternational.com.pk/"
             />
           </Col>
         </Row>
